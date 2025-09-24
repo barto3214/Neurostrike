@@ -10,6 +10,7 @@ public class Doors : MonoBehaviour
         game_Manager = FindFirstObjectByType<Game_manager>();
         animator = GetComponent<Animator>();
     }
+    
     void Update()
     {
         if (game_Manager.enemies_to_kill >= 3) {
